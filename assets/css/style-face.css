@@ -1,0 +1,56 @@
+/*------------------------------*\
+    #CUSTOM PROPERTY
+\*------------------------------*/
+
+:root {
+  /* CORES */
+  --facebook-btn-login: #1877f2;
+  --face-body-font: #1c1e21;
+
+  /* FONTES */
+  --ff-body-face: 'arial', regular;
+
+
+/*------------------------------*\
+  #RESET DE FORMATAÇÕES
+\*------------------------------*/
+*, *::before, 
+*::after{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+li{
+  list-style: none;
+}
+
+a{
+  text-decoration: none;
+  color: inherit;
+}
+
+/* BODY */
+body {
+  font-family: ;
+}
+.body-text {
+  font: var(--ff-body-face);
+  font-size: 28px;
+  text-align: center;
+}
+
+.left {
+  align-items: left;
+}
+
+
+  /* FOOTER */
+  .footer .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .copyright, .footer-list {
+    margin-inline: 0;
+  }
+
